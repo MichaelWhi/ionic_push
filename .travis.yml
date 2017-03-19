@@ -2,7 +2,6 @@ language: ruby
 rvm:
   - 2.3.3
   - 2.4.0
-  - 2.0.0
 before_install: bin/setup
 script:
   - rake spec
